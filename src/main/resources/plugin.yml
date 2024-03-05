@@ -1,0 +1,9 @@
+name: WorldResetPlugin
+version: '${project.version}'
+main: com.ashkiano.worldresetplugin.WorldResetPlugin
+api-version: '1.16'
+commands:
+  resetworld:
+    description: Removes and regenerates any world by name.
+    usage: /<command> <worldName>
+    permission: worldreset.use
