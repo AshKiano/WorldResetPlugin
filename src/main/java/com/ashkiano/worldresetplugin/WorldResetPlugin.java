@@ -11,7 +11,7 @@ public class WorldResetPlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getLogger().info("WorldResetPlugin enabled.");
+        this.getLogger().info("Thank you for using the WorldResetPlugin plugin! If you enjoy using this plugin, please consider making a donation to support the development. You can donate at: https://donate.ashkiano.com");
         Metrics metrics = new Metrics(this, 20956);
     }
 
